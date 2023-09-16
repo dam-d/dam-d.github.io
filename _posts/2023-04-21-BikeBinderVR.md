@@ -2,8 +2,8 @@
 date: 2023-04-21 12:00:00
 layout: post
 title: Bike Binder VR
-subtitle: A tool to physically control Riders Republic game from a bike trainer and VR setup.
-description: A tool to physically control Riders Republic game from a bike trainer and VR setup.
+subtitle: Un outil pour contr&ocirc;ler physiquement le jeu Riders Republic depuis un bike-trainer et un casque VR.
+description: Un outil pour contr&ocirc;ler physiquement le jeu Riders Republic depuis un bike-trainer et un casque VR.
 image: /assets/img/posts/BikeBinderVR.png
 optimized_image: /assets/img/posts/BikeBinderVR_Optimized.png
 category: software
@@ -13,18 +13,18 @@ tags:
 author: damien
 ---
 
-This was a little silly experimentation to exercise some more and making a home bike trainer funnier to use.
+Il s&#39;agissait d&#39;une petite exp&eacute;rimentation amusante pour m&#39;entra&icirc;ner davantage et rendre l&#39;utilisation d&#39;un home-trainer de v&eacute;lo plus divertissante.
 
-This software was made using .Net Windows Forms, Vigem, Oculus and OpenVR SDKs.
-It checks the movements inputs of VR controllers from their respective SDKs and processes these inputs before sending them to a simulated XBOX controller through Vigem.
+Ce logiciel a &eacute;t&eacute; cr&eacute;&eacute; &agrave; l&#39;aide de .Net Windows Forms, Vigem, et des SDKs d&#39;Oculus et OpenVR.
+Il v&eacute;rifie les input de mouvement des contr&ocirc;leurs VR &agrave; partir de leurs SDK respectifs et traite ces entr&eacute;es avant de les envoyer &agrave; une manette Xbox simul&eacute;e via Vigem.
 
 <div class="video-container">
     <video autoplay loop muted playsinline poster="/assets/img/loading.gif" src="/assets/img/videos/BikeBinderVR1.mp4" type="video/mp4" preload="auto"></video>
 </div>
 
-The left controller is attached to the left foot, the gyroscope datas is used to check for peddling movements. Depending on the intensity, it'll simulate pushing the Right Trigger more or less so the ingame speed is related to your peddling intensity.
+Le contr&ocirc;leur gauche est attach&eacute; au pied gauche, les donn&eacute;es du gyroscope sont utilis&eacute;es pour v&eacute;rifier les mouvements de p&eacute;dalage. Selon l&#39;intensit&eacute;, il simule davantage ou moins l&#39;appui sur la g&acirc;chette droite, de sorte que la vitesse en jeu est li&eacute;e &agrave; l&#39;intensit&eacute; du p&eacute;dalage.
 
-The right controller is attached to the handle bar and tracks it's orientation. These datas are then processed and used to simulate the left joystick axis ingame.
+Le contr&ocirc;leur droit est fix&eacute; au guidon et suit son orientation. Ces donn&eacute;es sont ensuite trait&eacute;es et utilis&eacute;es pour simuler l&#39;axe du joystick gauche en jeu.
 
 <div class="video-container">
     <video autoplay loop muted playsinline poster="/assets/img/loading.gif" src="/assets/img/videos/BikeBinderVR2.mp4" type="video/mp4" preload="auto"></video>

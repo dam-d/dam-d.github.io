@@ -1,9 +1,9 @@
 ---
 date: 2023-08-16 12:26:40
 layout: post
-title: Forklift Trainer VR
-subtitle: A VR training app for professionals forklift drivers for Quest 2.
-description: A VR training app for professionals forklift drivers for Quest 2.
+title: Logiciel VR de formation CACES
+subtitle: Une application VR d&#39;entrainement &agrave; la conduite de chariot &eacute;l&eacute;vateurs.
+description: Une application VR d&#39;entrainement &agrave; la conduite de chariot &eacute;l&eacute;vateurs.
 image: /assets/img/posts/ForkliftVR.png
 optimized_image: /assets/img/posts/ForkliftVR_Optimized.png
 category: unity
@@ -13,28 +13,27 @@ tags:
 author: damien
 ---
 
-Virtual Reality is highly useful for real-life training due to its immersive learning environment, safety benefits, repeatability of scenarios, cost-effectiveness, customization, instant feedback, and its ability to overcome physical limitations. It offers a safe space for learners to practice and learn from mistakes. While it's not suitable for all training needs, VR has the potential to enhance training across various industries.
-
+La r&eacute;alit&eacute; virtuelle est extr&ecirc;mement utile pour la formation en situation r&eacute;elle en raison de son environnement d&#39;apprentissage immersif, de ses avantages en mati&egrave;re de s&eacute;curit&eacute;, de la possibilit&eacute; de r&eacute;p&eacute;ter des sc&eacute;narios, de son co&ucirc;t abordable, de sa personnalisation, de ses retours instantan&eacute;s et de sa capacit&eacute; &agrave; surmonter les limitations physiques. Elle offre un espace s&ucirc;r aux apprenants pour s&#39;entra&icirc;ner et apprendre de leurs erreurs. Bien qu&#39;elle ne convienne pas &agrave; tous les besoins de formation, la r&eacute;alit&eacute; virtuelle a le potentiel d&#39;am&eacute;liorer la formation dans diverses industries.
 <div class="video-container">
     <video autoplay loop muted playsinline poster="/assets/img/loading.gif" src="/assets/img/videos/Forklift1.mp4" type="video/mp4" preload="auto"></video>
 </div>
 <div class="video-description">
-    <p>Forklift is entirely controllable physically, allowing trainees to familiarize with its operation</p>
+    <p>Le chariot elevateur est enti&egrave;rement controllable physiquement, permettant aux utilisateurs de se familiariser avec l&#39;appareil</p>
 </div>
 
-Here's my own solution to train forklift users in a professional environment, allowing them to quickly learn the safety practises and familiarize with the tools they will operate on their job.
+Voici ma propre solution pour former les utilisateurs de chariots &eacute;l&eacute;vateurs dans un environnement professionnel, leur permettant d&#39;apprendre rapidement les pratiques de s&eacute;curit&eacute; et de se familiariser avec les outils qu&#39;ils utiliseront dans leur travail.
 
 <div class="video-container">
     <video autoplay loop muted playsinline poster="/assets/img/loading.gif" src="/assets/img/videos/Forklift2.mp4" type="video/mp4" preload="auto"></video>
 </div>
 
-Physic of the vehicle as well as the loads it'll operate is an important part of the simulation, allowing the user to understand the risks involved in operating a forklift.
+La physique du v&eacute;hicule ainsi que des charges qu&#39;il manipulera font partie int&eacute;grante de la simulation, permettant &agrave; l&#39;utilisateur de comprendre les risques li&eacute;s &agrave; la conduite d&#39;un chariot &eacute;l&eacute;vateur.
 
 <div class="video-container">
     <video autoplay loop muted playsinline poster="/assets/img/loading.gif" src="/assets/img/videos/Forklift3.mp4" type="video/mp4" preload="auto"></video>
 </div>
 
-VR comfort is a crucial point for users. A vignette toggleable vignette settings helps preventing motion sickness in most cases.
+Le confort en r&eacute;alit&eacute; virtuelle est un point crucial pour les utilisateurs. Un r&eacute;glage de vignette pouvant &ecirc;tre activ&eacute; ou d&eacute;sactiv&eacute; contribue &agrave; pr&eacute;venir les probl&egrave;mes de naus&eacute;e li&eacute;s au mouvement dans la plupart des cas.
 
 <div class="video-container">
     <video autoplay loop muted playsinline poster="/assets/img/loading.gif" src="/assets/img/videos/Forklift4.mp4" type="video/mp4" preload="auto"></video>

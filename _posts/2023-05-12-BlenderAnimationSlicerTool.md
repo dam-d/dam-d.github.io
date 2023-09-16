@@ -1,9 +1,9 @@
 ---
 date: 2023-05-12 12:00:00
 layout: post
-title: Blender animation slicer tool
-subtitle: A python script allowing to detect differences between frames and split animations accordingly.
-description: A python script allowing to detect differences between frames and split animations accordingly.
+title: Blender - Decoupeur d'animation
+subtitle: Un script Python permettant de decouper automatiquement un fichier d'animation en de multiple animation action dans Blender.
+description: Un script Python permettant de decouper automatiquement un fichier d'animation en de multiple animation action dans Blender.
 image: /assets/img/posts/AnimationSplitter.png
 optimized_image: /assets/img/posts/AnimationSplitter_Optimized.png
 category: blender
@@ -13,13 +13,11 @@ tags:
 author: damien
 ---
 
-This tool was born out of a necessity to sort out the animation files extracted from the ps1 version of the game metal gear solid and separate each animations into their own blender action.
+Cet outil est n&eacute; de la n&eacute;cessit&eacute; de trier les fichiers d&#39;animation extraits de la version PS1 du jeu Metal Gear Solid et de s&eacute;parer chaque animation dans sa propre animation action dans Blender.
 
-This is a Python implementation of the RMSE formula that allows to measure the differences between two values by giving a score depending on their difference.
-Here, we check each bone rotations on each frames of the animations. If the rotation difference between each frames is more than the threshold we gave it, that probably means that the frame belongs to another animation.
-If that's the case, the script will automatically cut the animation and create it's own blender action with it.
+Il s&#39;agit d&#39;une impl&eacute;mentation en Python de la formule RMSE qui permet de mesurer les diff&eacute;rences entre deux valeurs en attribuant un score en fonction de leur diff&eacute;rence. Ici, nous v&eacute;rifions les rotations de chaque bone sur chaque frame des animations. Si la diff&eacute;rence de rotation entre chaque frame est sup&eacute;rieure au seuil qu&#39;on d&eacute;fini, cela signifie probablement que la frame appartient &agrave; une autre animation. Dans ce cas, le script coupera automatiquement l&#39;animation et cr&eacute;era sa propre action.
 
-This tool isn't perfect and will require human supervision to check the cuts but it allows to automatize a huge chunk of the work.
+Cet outil n&#39;est pas parfait et n&eacute;cessite une supervision humaine pour v&eacute;rifier les d&eacute;coupes, mais il permet d&#39;automatiser une grande partie du travail.
 
 <div class="video-container">
     <video autoplay loop muted playsinline poster="/assets/img/loading.gif" src="/assets/img/videos/AnimationSlicer.mp4" type="video/mp4" preload="auto"></video>
