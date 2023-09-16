@@ -11,7 +11,7 @@ tags:
   - music
   - band
   - passion
-author: holydh
+author: damien
 ---
 
 I started this project with the idea of linking the Bike Binder software I previously made into Descenders to physically control the game from a bike trainer. The lack of time prevented me from doing that final step but the VR mod in itself is entirely functional and a load of fun with a standard gamepad.

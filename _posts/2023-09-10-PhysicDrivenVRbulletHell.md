@@ -1,15 +1,15 @@
 ---
 date: 2023-09-10 12:26:40
 layout: post
-title: Unity DOTS - Physic VR simulation
-subtitle: A massive number of physic driven entities powered by Unity DOTS.
+title: Unity DOTS - Simulation physique VR
+subtitle: Une quantit&eacute;  massive d'objets physique A massive number of physic driven entities powered by Unity DOTS.
 description: A massive number of physic driven entities powered by Unity DOTS.
 image: /assets/img/posts/BulletHellVR.png
 optimized_image: /assets/img/posts/BulletHellVR_Optimized.png
 category: unity
 tags:
   - unityDOTS
-author: holydh
+author: damien
 ---
 
 This project was initiated with the primary goal of <strong>enhancing my coding scalability skills</strong>. As someone with a background predominantly in traditional object-oriented programming using .NET and Unity, venturing into data-driven development was an entirely new realm for me. The introduction to Entity Component System (ECS) within Unity's DOTS framework presented an invaluable opportunity to immerse myself in and assimilate <strong>clean and scalable programming patterns</strong> within a data-driven architectural context.

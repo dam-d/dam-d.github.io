@@ -10,7 +10,7 @@ category: blender
 tags:
   - blender
   - python
-author: holydh
+author: damien
 ---
 
 This tool was born out of a necessity to sort out the animation files extracted from the ps1 version of the game metal gear solid and separate each animations into their own blender action.

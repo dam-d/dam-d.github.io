@@ -10,7 +10,7 @@ category: software
 tags:
   - C#
   - software
-author: holydh
+author: damien
 ---
 
 This was a little silly experimentation to exercise some more and making a home bike trainer funnier to use.

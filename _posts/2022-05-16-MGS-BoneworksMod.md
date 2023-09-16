@@ -10,7 +10,7 @@ optimized_image: /assets/img/posts/BoneworksMGS_Optimized.png
 tags:
   - Boneworks
   - VR
-author: holydh
+author: damien
 ---
 
 Gamedev wasn't something new to me when starting this project. I already had some experience but only using game maker. I wanted to step up but wasn't sure on how to proceed. 

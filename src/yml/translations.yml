@@ -1,0 +1,41 @@
+translations:
+  text:
+    new_post: "Nouveau post"
+    see_also: "Voir aussi"
+    search: "Recherche"
+    author: "Auteur"
+    share: "Partager"
+    comments: "Commentaires"
+  button:
+    read_now: "Lire"
+    share_on_twitter: "Partager sur Twitter"
+    share_on_facebook: "Partager sur Facebook"
+  pagination:
+    page: "Page"
+    of: "de"
+    next_page: "Page Suivante"
+    next_post: "Page Précédente"
+  recommendation:
+    text: "Pourquoi ne pas lire un autre article ?"
+    back_btn: "Retourner en haut de la page"
+  error_404:
+    title: "Page introuvable :("
+    message: "Désolé. Nous ne trouvons pas la page que vous recherchez."
+    image_alt: "404 - Page introuvable"
+  contact:
+    title: "Contactez moi"
+    subject: "Nouveau contact!"
+    submit_btn: "Envoyer"
+    placeholders:
+      name: "Votre nom"
+      email: "Votre e-mail"
+      message: "Votre message"
+    errors:
+      locale: "fr"
+      empty_name: "Un nom est requis"
+      empty_email: "Un email est requis"
+      invalid_email: "Cet email n'est pas valide"
+      empty_message: "Un message est requis"
+    after_send:
+      title: "Message envoyé !"
+      message: "Merci pour votre message."

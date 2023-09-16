@@ -10,7 +10,7 @@ category: modding
 tags:
   - modding
   - VR
-author: holydh
+author: damien
 ---
 
 Following my Descenders VR mod, here's another one for AudioSurf 2, kindly requested by an absolute fan of this game desperately looking for a proper VR implementation since 2017. This wish is now granted.

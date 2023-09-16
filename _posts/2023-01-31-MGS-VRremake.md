@@ -10,7 +10,7 @@ optimized_image: /assets/img/posts/MGSVR_Optimized.png
 tags:
   - unity
   - VR
-author: holydh
+author: damien
 ---
 
 After my initial work on Boneworks modding, I figured I should be able to reproduce a few game mechanics from metal gear solid 1 and transpose them in VR.

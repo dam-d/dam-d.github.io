@@ -10,7 +10,7 @@ category: unity
 tags:
   - unity
   - VR
-author: holydh
+author: damien
 ---
 
 Virtual Reality is highly useful for real-life training due to its immersive learning environment, safety benefits, repeatability of scenarios, cost-effectiveness, customization, instant feedback, and its ability to overcome physical limitations. It offers a safe space for learners to practice and learn from mistakes. While it's not suitable for all training needs, VR has the potential to enhance training across various industries.

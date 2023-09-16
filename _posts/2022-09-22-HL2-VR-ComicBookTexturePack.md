@@ -10,7 +10,7 @@ optimized_image: /assets/img/posts/ComicBookMod_Optimized.png
 tags:
   - HL2
   - modding
-author: holydh
+author: damien
 ---
 
 I always loved comic book aesthetic. 

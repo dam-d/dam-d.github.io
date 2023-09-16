@@ -1,6 +1,6 @@
-name: Holydh's Portfolio
-title: Holydh's Portfolio
-description: This is my portfolio showcasing my previous and actual projects
+name: Portfolio
+title: Portfolio Damien D.
+description: Portfolio de Damien D.
 tags:
   - blog
   - template
@@ -9,9 +9,9 @@ tags:
   - netlify
 show_hero: true
 menu:
-  - title: Home
+  - title: Accueil
     url: /
-  - title: About
+  - title: "&Agrave; propos"
     url: /about
   - title: Contact
     url: /contact

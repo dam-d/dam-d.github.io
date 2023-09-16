@@ -1,7 +1,7 @@
 # Site Settings
-name: Holydh's Portfolio
-title: Holydh's Portfolio
-description: This is my portfolio showcasing my previous and actual projects
+name: Portfolio
+title: Portfolio Damien D.
+description: Portfolio de Damien D.
 tags:
   - blog
   - template
@@ -10,9 +10,9 @@ tags:
   - netlify
 show_hero: true
 menu:
-  - title: Home
+  - title: Accueil
     url: /
-  - title: About
+  - title: "&Agrave; propos"
     url: /about
   - title: Contact
     url: /contact
@@ -28,9 +28,9 @@ formspree_form_id: formspree_form_id
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: Holydh
+github_username: damien
 #facebook_username: facebook_username
-twitter_username: Holydh2
+twitter_username: damien2
 #instagram_username: instagram_username
 #linkedin_username: linkedin_username
 #medium_username: medium_username
@@ -47,7 +47,7 @@ two_columns_layout: true
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
-language: "en"
+language: "fr"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
 
@@ -102,6 +102,48 @@ exclude: [
   'gulpfile.js',
   'README.md'
 ]
+
+translations:
+  text:
+    new_post: "Nouveau post"
+    see_also: "Voir aussi"
+    search: "Recherche"
+    author: "Auteur"
+    share: "Partager"
+    comments: "Commentaires"
+  button:
+    read_now: "Plus d'info"
+    share_on_twitter: "Partager sur Twitter"
+    share_on_facebook: "Partager sur Facebook"
+  pagination:
+    page: "Page"
+    of: "de"
+    next_page: "Page Suivante"
+    next_post: "Page Pr�c�dente"
+  recommendation:
+    text: "Envie d'en voir un peu plus ?"
+    back_btn: "Retourner en haut de la page"
+  error_404:
+    title: "Page introuvable :("
+    message: "D�sol�. Nous ne trouvons pas la page que vous recherchez."
+    image_alt: "404 - Page introuvable"
+  contact:
+    title: "Contactez moi"
+    subject: "Nouveau contact!"
+    submit_btn: "Envoyer"
+    placeholders:
+      name: "Votre nom"
+      email: "Votre e-mail"
+      message: "Votre message"
+    errors:
+      locale: "fr"
+      empty_name: "Un nom est requis"
+      empty_email: "Un email est requis"
+      invalid_email: "Cet email n'est pas valide"
+      empty_message: "Un message est requis"
+    after_send:
+      title: "Message envoy� !"
+      message: "Merci pour votre message."
 
 # Theme
 #version: v3.1.2
