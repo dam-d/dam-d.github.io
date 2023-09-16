@@ -2,7 +2,7 @@
 date: 2023-09-10 12:26:40
 layout: post
 title: Unity DOTS - Simulation physique VR
-subtitle: Une quantit&eacute;  massive d'objets physique A massive number of physic driven entities powered by Unity DOTS.
+subtitle: Une quantit&#233; massive d'objets physique simul&#233; en temps r&#233;el avec Unity DOTS.
 description: A massive number of physic driven entities powered by Unity DOTS.
 image: /assets/img/posts/BulletHellVR.png
 optimized_image: /assets/img/posts/BulletHellVR_Optimized.png
@@ -12,40 +12,40 @@ tags:
 author: damien
 ---
 
-This project was initiated with the primary goal of <strong>enhancing my coding scalability skills</strong>. As someone with a background predominantly in traditional object-oriented programming using .NET and Unity, venturing into data-driven development was an entirely new realm for me. The introduction to Entity Component System (ECS) within Unity's DOTS framework presented an invaluable opportunity to immerse myself in and assimilate <strong>clean and scalable programming patterns</strong> within a data-driven architectural context.
+Ce projet a &#233;t&#233; initi&#233; dans le but principal d'<strong>am&#233;liorer ma capacit&#233; &#224; d&#233;velopper du code &#233;volutifs</strong>. Mon exp&#233;rience est principalement ancr&#233;e dans la programmation orient&#233;e objet traditionnelle sous .NET et Unity, et m'aventurer sur du d&#233;veloppement orient&#233; data repr&#233;sentait donc un certain challenge. La d&#233;couverte du framework ECS DOTS d'Unity a offert une pr&#233;cieuse opportunit&#233; de m'immerger dans cette architecture.
 
-Furthermore, the Unity DOTS physics package, renowned for its capacity to handle an extensive number of physics entities, captivated my interest and curiosity. This project not only facilitated my learning journey but also allowed me to create visually appealing simulations : <strong>a perfect blend of aesthetics and technical skill development.</strong> It has been a truly rewarding experience.
+Cela faisait un moment que je suivais avec envie l'&#233;volution de Unity DOTS, reconnu pour sa capacit&#233; &#224; g&#233;rer un grand nombre d'entit&#233;s. Ce projet m'a non seulement facilit&#233; l'apprentissage de l'architecture ECS, mais m'a &#233;galement permis de cr&#233;er des simulations visuellement impressionantes pour une &#233;x&#233;cution en temps r&#233;el : <strong>une combinaison plaisante d'esth&#233;tique et comp&#233;tences techniques.</strong>
 
 <div class="video-container">
     <video autoplay loop muted playsinline poster="/assets/img/loading.gif" src="/assets/img/BulletHell1.mp4" type="video/mp4" preload="auto"></video>
 </div>
 <div class="video-description">
-    <p>latest version : 20 000 physic entities driven by a custom movement system, recorded in editor.</p>
+    <p>20 000 entit&#233;s physiques conduites par un syst&#232;me de mouvement profitant du multithread, burst compile et job system.</p>
 </div>
 
-Additionally, this provided a good opportunity to delve into <strong>VFX graph technology</strong>, facilitating the transition of allocated resources from the CPU to the GPU. Given the CPU-intensive nature of physics simulations, this shift empowered me <strong>to further scale the number of physical entities within the project.</strong>
+Cela &eacute;tait &eacute;galement l&#39;occasion de m&#39;immerger dans la technologie <strong>VFX Graph</strong>, le but &eacute;tant de transferer la charge des effets visuel du CPU vers le GPU. &Eacute;tant donn&eacute; la nature tr&egrave;s gourmande en CPU des simulations physiques, ce changement m&#39;a permis <strong>d&#39;augmenter encore davantage le nombre d&#39;entit&eacute;s.</strong>
 
 <div class="video-container">
     <video autoplay loop muted playsinline poster="/assets/img/loading.gif" src="/assets/img/videos/BulletHellGamepad.mp4" type="video/mp4" preload="auto"></video>
 </div>
 <div class="video-description">
-    <p>Also playable on normal flatscreen with gamepad or kb/m</p>
+    <p>Jouable &eacute;galement sur &eacute;cran standard avec une manette ou clavier souris</p>
 </div>
 
-A huge work on other optimizations has been done to maintain the VR target of 90 fps.
+Un travail consid&eacute;rable a &eacute;galement &eacute;t&eacute; r&eacute;alis&eacute; sur d&#39;autres optimisations afin de maintenir la fr&eacute;quence de 90 fps en r&eacute;alit&eacute; virtuelle.
 
 <div class="video-container">
     <video autoplay loop muted playsinline poster="/assets/img/loading.gif" src="/assets/img/videos/BulletHell2.mp4" type="video/mp4" preload="auto"></video>
 </div>
 <div class="video-description">
-    <p>VR gameplay of an earlier prototype without post processing.</p>
+    <p>Gameplay VR d'une version sans post processing.</p>
 </div>
 
-It also allowed me <strong>to consolidate and enhance my existing skill set</strong> encompassing various domains, including VR interactions, game and level design, modeling, texturing, VFX, audio management, lighting, and post-processing.
+En outre, cela m&#39;a &eacute;galement permis <strong>de renforcer et d&#39;am&eacute;liorer mes comp&eacute;tences existantes</strong> dans divers domaines, notamment les interactions VR, game et level design, mod&eacute;lisation, texturing, vfxs, la gestion audio, l&#39;&eacute;clairage et le post-processing.
 
 <div class="video-container">
     <video autoplay loop muted playsinline poster="/assets/img/loading.gif" src="/assets/img/videos/BulletHell3.mp4" type="video/mp4" preload="auto"></video>
 </div>
 <div class="video-description">
-    <p>Smooth entities movement chasing the player.</p>
+    <p>Target Locked</p>
 </div>

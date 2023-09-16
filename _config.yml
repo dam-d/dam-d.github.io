@@ -119,13 +119,13 @@ translations:
     page: "Page"
     of: "de"
     next_page: "Page Suivante"
-    next_post: "Page Pr�c�dente"
+    next_post: "Page Pr&#233;c&#233;dente"
   recommendation:
     text: "Envie d'en voir un peu plus ?"
     back_btn: "Retourner en haut de la page"
   error_404:
     title: "Page introuvable :("
-    message: "D�sol�. Nous ne trouvons pas la page que vous recherchez."
+    message: "D&#233;sol&#233;. Nous ne trouvons pas la page que vous recherchez."
     image_alt: "404 - Page introuvable"
   contact:
     title: "Contactez moi"
@@ -142,7 +142,7 @@ translations:
       invalid_email: "Cet email n'est pas valide"
       empty_message: "Un message est requis"
     after_send:
-      title: "Message envoy� !"
+      title: "Message envoy&#233; !"
       message: "Merci pour votre message."
 
 # Theme
