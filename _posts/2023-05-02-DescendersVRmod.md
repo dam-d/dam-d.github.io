@@ -6,7 +6,7 @@ subtitle: Un mod pour Descenders permettant de jouer en VR.
 description: Un mod pour Descenders permettant de jouer en VR.
 image: /assets/img/posts/DescendersVR.png
 optimized_image: /assets/img/posts/DescendersVR_Optimized.png
-category: music
+category: modding
 tags:
   - music
   - band
